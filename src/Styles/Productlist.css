@@ -1,0 +1,14 @@
+.rowduct {
+  display: flex;
+}
+
+.column-left {
+  width: 20%;
+  height: 100vh;
+  border-right: 1px solid black;
+}
+
+.column-right {
+  width: 70%;
+  height: 100vh;
+}

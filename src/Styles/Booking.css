@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.booknav {
+  background-color: aqua;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.booknav .bookhead{
+    text-align: center;
+    justify-content: center;
+}

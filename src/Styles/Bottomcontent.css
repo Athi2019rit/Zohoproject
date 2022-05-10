@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bottom-content {
+  padding-bottom: 20px;
+  width: 100%;
+  /* margin-left: 10%; */
+  padding-left: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#car-image {
+  width: 25rem;
+  height: 190px;
+}
+
+.bottom-content #title {
+  font-size: 2em;
+  font-weight: bolder;
+}
