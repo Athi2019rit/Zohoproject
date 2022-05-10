@@ -3,6 +3,8 @@ import HomePage from "./Components/Home/HomePage";
 import Partners from "./Components/Home/Partners";
 // import HomePage from "./Components/Home/HomePage";
 // import LoginForm from "./Components/Home/LoginForm";
+import React, { useState } from "react";
+
 import NavbarConst from "./Components/Home/Navbar";
 import Booking from "./Components/Home/Booking";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -12,6 +14,7 @@ import RegForm from "./Components/Home/RegForm";
 import Productlist from "./Components/Home/Productlist";
 import Registerform from "./Components/Home/Registerform";
 function App() {
+
   return (
     <div>
       <Router>
@@ -21,7 +24,7 @@ function App() {
           <Route path="/Partners" element={<Partners />}></Route>
           <Route path="/RegForm" element={<RegForm />}></Route>
           <Route path="/Navbar" element={<NavbarConst />}></Route>
-          <Route path="/Booking" element={<Booking />}></Route>
+          <Route path="/Booking" element={<Booking/>}></Route>
           <Route path="/Productlist" element={<Productlist />}></Route>
           {/* <Route path="/Login" element={<LoginForm />}></Route>
           <Route path="/Register" element={<Registerform />}></Route> */}
